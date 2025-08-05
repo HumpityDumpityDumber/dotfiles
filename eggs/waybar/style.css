@@ -1,0 +1,204 @@
+* {
+    font-family:
+        "Google Sans Rounded", Inconsolata Nerd Font Propo, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+window#waybar {
+    min-height: 0px;
+    min-width: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0px;
+}
+
+window#waybar > box {
+    min-height: 0px;
+    min-width: 0px;
+    background-color: transparent;
+    border-radius: 999px;
+    padding: 0px;
+    margin: 0px 5px 0 5px;
+}
+
+/* Default for all modules */
+#gamemode,
+#taskbar,
+#group-launcher,
+#clock,
+#custom-power,
+#custom-restart,
+#custom-logout,
+#custom-traypopout,
+#custom-focusright,
+#custom-focusleft,
+#custom-lock,
+#tray,
+#custom-traypopout,
+#mpris,
+#pulseaudio,
+#idle_inhibitor,
+#custom-wlogout {
+    min-width: 0px;
+    padding: 4px 12px;
+    margin-right: 3px;
+    margin-left: 3px;
+    color: #000000;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+
+#clock:hover,
+#mpris:hover,
+#custom-traypopout:hover,
+#custom-notification:hover,
+#custom-updates:hover,
+#pulseaudio:hover,
+#idle_inhibitor:hover,
+#custom-power:hover,
+#custom-restart:hover,
+#custom-logout:hover,
+#custom-focusright:hover,
+#custom-focusleft:hover,
+#custom-lock:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: background-color 0.5s ease;
+}
+
+/* Remove margin if first or last */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0px;
+}
+
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0px;
+}
+
+/* Customize each module */
+
+#custom-power {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 15px;
+    min-height: 34px;
+    margin-left: 0px;
+}
+
+#custom-restart {
+    padding-left: 12px;
+    padding-right: 15px;
+}
+
+#custom-logout {
+    padding-left: 12px;
+    padding-right: 15px;
+}
+
+#custom-lock {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 15px;
+    min-height: 34px;
+    margin-right: 6px;
+}
+
+#custom-focusright {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 0px;
+    padding-left: 5px;
+}
+
+#custom-focusleft {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 0px;
+    padding-right: 5px;
+}
+
+#custom-traypopout {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 0px;
+    padding-left: 5px;
+}
+
+#pulseaudio {
+    font-family: "MesloLGS Nerd Font";
+    margin-right: 0px;
+}
+
+#pulseaudio-slider {
+    min-width: 100px;
+    background: transparent;
+    box-shadow: none;
+}
+
+#pulseaudio-slider slider {
+    background: transparent;
+    box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+    min-width: 100px;
+    background: transparent;
+    box-shadow: none;;
+}
+
+#pulseaudio-slider highlight {
+    background: #000000;
+    box-shadow: none;
+}
+
+#idle_inhibitor {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 16px;
+    margin-right: 5px;
+    min-height: 34px;
+    margin-left: 0px;
+}
+
+#tray menu {
+    font-size: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 15px;
+}
+
+#tray {
+    border-radius: 0px;
+    margin-right: 0px;
+    padding-left: 8px;
+    padding-right: 5px;
+    margin-left: 0px;
+}
+
+tooltip {
+    min-height: 0px;
+    min-width: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+tooltip label {
+    color: #000000;
+    padding: 5px;
+}
+
+#clock {
+    margin-right: 0px;
+    padding: 8px 8px 4px 11px;
+}

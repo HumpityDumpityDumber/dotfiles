@@ -1,0 +1,69 @@
+#!/bin/bash
+mode=$1
+
+if [[ -z $mode ]]; then
+	cat << EOF
+Usage: $0 <mode>
+
+Modes:
+  ocr       - OCR selected screen area and copy text
+  ss        - Take a screenshot with selection and annotate
+  qr        - Scan QR code from selected area and copy result
+  sr        - Toggle screen recording of selected area
+  tts       - OCR, translate, and speak selected text
+
+Example:
+  $0 ocr
+EOF
+	exit 1
+fi
+
+# ocr
+if [[ $mode == "ocr" ]]; then
+	grim -g "$(slurp)" - | tesseract - - | wl-copy
+fi
+
+# screenshot 
+if [[ $mode == "ss" ]]; then
+	outdir="$HOME/Pictures/Screenshots"
+	mkdir -p $outdir
+	filename=$(date "+%Y-%m-%d_%H-%M-%S.png")
+	filepath="$outdir/$filename"
+
+	grim -g "$(slurp)" - | tee "$filepath" | satty -f -
+fi
+
+# qr codes
+if [[ $mode == "qr" ]]; then
+	string=$(grim -g "$(slurp)" - | zbarimg -)
+	echo ${string:8} | wl-copy
+fi
+
+# screen recordings
+if [[ $mode == "sr" ]]; then
+	pidfile="$HOME/.cache/wf-recorder.pid"
+	
+	if [[ -f "$pidfile" ]]; then
+	    kill "$(cat "$pidfile")" && rm "$pidfile"
+	    notify-send "Screen Recording" "Stopped"
+	else
+	    outdir="$HOME/Videos/Screenrecs"
+	    mkdir -p "$outdir"
+	    filename=$(date "+%Y-%m-%d_%H-%M-%S.mp4")
+	    filepath="$outdir/$filename"
+	
+	    wf-recorder -g "$(slurp)" -f "$filepath" &
+	    echo $! > "$pidfile"
+	    notify-send "Screen Recording" "Started"
+	fi
+fi
+
+# tts
+if [[ $mode == "tts" ]]; then
+    langs=$(ls /usr/share/tessdata | sed -n 's/\.traineddata$//p' | paste -sd+ -)
+    text=$(grim -g "$(slurp)" - | tesseract --dpi 300 -l "$langs" - -)
+    translated=$(echo "$text" | trans -brief :en)
+    echo "$translated" | wl-copy
+    echo "$translated"
+    echo "$translated" | festival --tts
+fi

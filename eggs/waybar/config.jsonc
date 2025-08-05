@@ -1,0 +1,211 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "exclusive": false,
+  "reload_style_on_change": true,
+  "spacing": 0,
+  "margin-top": 0,
+  "margin-right": 0,
+  "margin-left": 0,
+  "margin-bottom": 0,
+  "fixed-center": true,
+  "modules-left": ["clock"],
+  "modules-center": ["mpris"],
+  "modules-right": ["pulseaudio"
+  ],
+  // Modules configuration
+
+  "mpris": {
+    "format": "󰏤 {dynamic}",
+    "format-paused": "󰐊 {dynamic}",
+    "max-length": 999,
+  },
+
+  "group/audio": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false,
+    },
+    "modules": ["pulseaudio", "pulseaudio/slider"],
+  },
+
+  "group/traypopout": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false,
+      "click-to-reveal": true
+    },
+    "modules": ["custom/traypopout", "tray"],
+  },
+
+  "custom/traypopout": {
+    "format": "󰄝",
+    "tooltip": true,
+    "tooltip-format": "Tray",
+  },
+
+  "clock": {
+    "interval": 1,
+    "format": "{:%H:%M %p}",
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "on-click": "swaync-client -t -sw",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b>{}</b></span>",
+      },
+    },
+    "actions": {
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down",
+    },
+  },
+  "pulseaudio": {
+    "scroll-step": 10,
+    "tooltip-format": "{volume}%",
+    "format": "{icon}",
+    "format-bluetooth": "{volume}% {icon}",
+    "format-bluetooth-muted": "󰖁 {icon}",
+    "format-muted": "󰖁",
+    "format-source": "󰍬",
+    "format-source-muted": "󰍭",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", ".", "..", "...", "....", ".....", "......", ".......", "........", ".........", "..........", "..........."],
+    },
+    "on-click": "pavucontrol -t 3",
+  },
+
+  "tray": {
+    "spacing": 10,
+  },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "",
+      "none": "",
+      "dnd-notification": "",
+      "dnd-none": "",
+      "inhibited-notification": "",
+      "inhibited-none": "",
+      "dnd-inhibited-notification": "",
+      "dnd-inhibited-none": "",
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true,
+  },
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": "",
+    },
+    "tooltip-format-activated": "The computer is prevented from going to sleep",
+    "tooltip-format-deactivated": "The computer will go to sleep if the user is idle",
+  },
+
+  "custom/focusright": {
+    "format": "",
+    "tooltip": true,
+    "tooltip-format": "focus window right",
+    "on-click": "niri msg action focus-column-right",
+  },
+
+  "custom/focusleft": {
+    "format": "",
+    "tooltip": true,
+    "tooltip-format": "focus window left",
+    "on-click": "niri msg action focus-column-left",
+  },
+
+  "group/launcher": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false,
+    },
+    "modules": [
+      "custom/launcher",
+      "custom/krita",
+      "custom/blender",
+      "custom/inkscape",
+      "custom/spotify",
+      "custom/steam",
+    ],
+  },
+
+  "group/power": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": false,
+    },
+    "modules": [
+      "custom/power",
+      "idle_inhibitor",
+      "custom/logout",
+      "custom/restart",
+      "custom/lock",
+    ],
+  },
+
+  "custom/power": {
+    "format": "",
+    "tooltip": true,
+    "tooltip-format": "Shutdown",
+    "on-click": "shutdown now",
+  },
+
+  "custom/logout": {
+    "format": "󰍃",
+    "tooltip": true,
+    "tooltip-format": "Logout",
+    "on-click": "niri msg action quit --skip-confirmation",
+  },
+
+  "custom/restart": {
+    "format": "",
+    "tooltip": true,
+    "tooltip-format": "Restart",
+    "on-click": "systemctl reboot",
+  },
+
+  "custom/lock": {
+    "format": "",
+    "tooltip": true,
+    "tooltip-format": "Lock",
+    "on-click": "swaylock",
+  },
+
+  "gamemode": {
+    "format": "{glyph}",
+    "format-alt": "{glyph} {count}",
+    "glyph": "",
+    "hide-not-running": true,
+    "use-icon": true,
+    "icon-name": "input-gaming-symbolic",
+    "icon-spacing": 4,
+    "icon-size": 20,
+    "tooltip": true,
+    "tooltip-format": "Games running: {count}",
+  },
+}

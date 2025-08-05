@@ -1,0 +1,1016 @@
+hi
+bye bye
+bye
+lmao
+ls
+exit
+yay thunderbird
+exit
+systemctl --user enable waybar
+systemctl --user start waybar
+systemctl --user status waybar
+waybar
+swww img 
+swww img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg
+swww-daemon
+swww-daemon & disown
+config nu
+nu config
+config nu
+cat .config/nu/config.nu
+cat 
+clear
+cat /home/knee/.config/nushell/config.nu
+config nu
+ls
+ffplay screenrecord.mp4
+rm screenrecord.mp4
+ls
+ffplay recording.mkv
+rm recording.mkv
+ls
+cat index.html
+pwd
+ls
+rm index.html
+ls
+run-external waybar --detached
+systemctl --user stop waybar
+systemctl --user start waybar
+run-external waybar
+systemctl --user stop waybar
+run-external --help
+waybar &
+systemctl --user start waybar
+job spawn { waybar }
+ls
+astal-notifd
+astal-notifd -d
+exit
+astal-notifd -l
+astal-notifd -l | table
+astal-notifd -l | from json
+astal-notifd --help
+astal-notifd -i
+astal-notifd -i --help
+astal-notifd -g --help
+astal-notifd -g 5
+astal-notifd -g 99
+/home/knee/.cache/astal/notifd/2456841557.png
+ffplay /home/knee/.cache/astal/notifd/2456841557.png
+astal-notifd -g 99 | from json
+astal-notifd -g 99 | from json | get hints
+astal-notifd -g 99 | from json | to json --pretty
+astal-notifd -g 99 | from json | to json
+astal-notifd -g 99 | from json | get hints | to json | open
+astal-notifd -g 99 | from json | get hints | to json
+astal-notifd -g 99 | from json | get hints
+(http get https://api.chucknorris.io/jokes/random).value
+astal-notifd -g 99 | from json | get hints
+(http get https://api.chucknorris.io/jokes/random).value
+(http get https://api.chucknorris.io/jokes/random).value | from ssv
+(http get https://api.chucknorris.io/jokes/random).value | from text
+(http get https://api.chucknorris.io/jokes/random).value | from
+echo -l | ./kquery.nu notifd
+echo "-l" | ./kquery.nu notifd
+exit
+help ./kquery.nu
+help kquery
+mv kquery.nu kquery
+ls
+kquery
+chmod +x kquery
+help kquery
+kquery
+ls
+chmod +x kquery
+ls
+mv kquery kquery.nu
+kquery
+kquery.nui
+kquery.nu
+exit
+kquery.nu
+sudo kquery.nu
+./kquery
+./kquery.nu
+help ./kquery.nu
+exit
+kquery.nu
+which kquery.nu
+which astal-notifd
+cava
+exit
+mktemp
+exit
+sys temp
+exit
+cd ..
+ls
+exit
+hx
+exit
+cd ..
+exit
+cd ..
+cd .. 
+ls
+what the fuckl
+cd dev/kquery/
+ls
+./kquery.nu
+kquery.nu
+./kquery.nu
+./kquery.nu cava
+ls
+rm tmp.*
+ls
+what the fuck
+ls
+fish
+ls
+./kquery.nu cava
+ls
+hx 
+cd ../../.config/nushell
+ls
+helix env.nu
+ls
+helix config.nu
+hx
+ls
+cd .config/nushell/
+cd 
+ls
+hx .config/yolk/yolk.rhai
+;s
+ls
+shutdown
+shutdown -c
+cd .config/nushell/config.nu
+cd .config/nushell/
+hx
+ls
+hx config.nu
+shutdown
+shutdown -c
+shutdown
+cd dev/my
+cd Documents/personal-website/
+git pull
+ls
+cs blog
+cd blog
+clear
+ls
+typioca 
+ls
+cd posts
+;s
+ls
+cd ../../blog/
+ls
+mkdir drafts 
+ls
+cd drafts
+ls
+ls | to json
+touch new_dotfiles.md
+ls
+ls | to json
+ls
+hx new_dotfiles.md
+cd .config/niri/config.kdl
+cd .config/niri/
+cd ..
+cd nu
+cd nushell/
+ls
+hx config.nu
+cdhx .config/niri/config.kdl
+cd .config/nushell/
+hx config.nu
+cd .config/nushell/
+hx config.nu
+cdhx .config/niri/config.kdl
+cd .config/nushell/
+ls
+hx config.nu
+cdhx .config/niri/config.kdl
+cd .config/nushell/
+hx config.nu
+cdhx .config/niri/config.kdl
+cdhx .config/he
+cdhx helix/config.toml
+astal-notifd -g 99 | from json | get hints
+cargo install mdpls
+cargo install marksman
+cargo install --git https://github.com/euclio/mdpls
+cdhx ../../Documents/personal-website/blog/drafts/new_dotfiles.md
+cd ~
+ls
+cdhx .config/helix/config.toml
+hx config.nu
+hx config.toml
+nano config.toml
+hx config.toml
+ls
+hx language.toml
+cdhx ../../Documents/personal-website/blog/drafts/new_dotfiles.md
+cd ..
+cd ../../../.config/helix/
+mv language.toml languages.toml
+hx language.toml
+ls
+hx languages.toml
+cdhx Documents/personal-website/blog/drafts/new_dotfiles.md
+yay nxapy
+yay nxapi
+nxapi
+echo $SHELL
+echo $env.SHELL
+swww img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg
+cat /home/knee/.config/nushell/history.txt
+ls
+# Don't download an archive, as nxapi detects the current git revision<\n>git clone https://gitlab.fancy.org.uk/samuel/nxapi.git<\n>cd nxapi<\n><\n># Install CLI/Electron app locally<\n>npm install<\n>npx tsc<\n><\n># CLI<\n># This command installs the nxapi command globally<\n># You can also use the CLI with node bin/nxapi.js ...<\n>npm link<\n><\n># Electron app<\n>npx rollup --config<\n># nxapi app or node bin/nxapi.js app to run the app<\n><\n># Build Docker image<\n>docker build . --tag registry.fancy.org.uk/samuel/nxapi<\n># # Run in Docker<\n># docker run -it --rm -v ./data:/data registry.fancy.org.uk/samuel/nxapi ...
+pkill gtklock
+nxapi
+nxapi-app
+flatpak install flathub discord
+cd dist/
+npm run build
+ls
+cd app
+npm run build
+/home/knee/Downloads/artifacts(1)/app/Nintendo Switch Online-1.6.1.AppImage
+"/home/knee/Downloads/artifacts(1)/app/Nintendo Switch Online-1.6.1.AppImage"
+chmod +x /home/knee/Downloads/artifacts(1)/app/Nintendo Switch Online-1.6.1.AppImage
+chmod +x "/home/knee/Downloads/artifacts(1)/app/Nintendo Switch Online-1.6.1.AppImage"
+"/home/knee/Downloads/artifacts(1)/app/Nintendo Switch Online-1.6.1.AppImage"
+.//home/knee/Downloads/artifacts(1)/app/Nintendo Switch Online-1.6.1.AppImage
+."/home/knee/Downloads/artifacts(1)/app/Nintendo Switch Online-1.6.1.AppImage"
+cd "/home/knee/Downloads/artifacts(1)/app/"
+ls
+`./Nintendo Switch Online-1.6.1.AppImage`
+nxapi-app --version
+nxapi-app --help
+killall discord
+yay discord
+flatpak uninstall flathub discord
+yay wl-clipboard-persist
+yay wl-clipboard
+yay wl-clip-persist
+nohup wl-clip-persist &
+wl-clip-persist
+wl-clip-persist --help
+wl-clip-persist -c --help
+wl-clip-persist -c regular & disown
+killall discord
+killall Discord
+whereis nohup
+typioca 
+cdhx .config/niri/config.kdl
+gamescope --help
+killall gamescope
+killall Gamescope
+pgrep gamescope
+pkill 176412
+ls
+cat nohub.out
+cat nohup.out
+rm nohup.out
+ls
+pgrep wl-clip-persist
+astal-notifd -l | from json
+astal-notifd -g 117 | from json
+astal-notifd -g 99 | from json
+open /home/knee/.cache/astal/notifd/2456841557.png
+ffplay /home/knee/.cache/astal/notifd/2456841557.png
+astal-notifd -l | from json
+astal-notifd -l | from json | find reol
+astal-notifd -l | from json | find reol | get id
+astal-notifd -l | from json | find reol | get id | astal -g $in | get hints | from json
+astal-notifd -l | from json | find reol | get id | astal -g ...$in | get hints | from json
+astal-notifd -l | from json | find reol | get id | astal-notifd -g ...$in | get hints | from json
+astal-notifd -l | from json | find reol | get id | astal-notifd -g $in | get hints | from json
+astal-notifd -l | from json | find reol | get id | first |astal-notifd -g $in | get hints | from json
+astal-notifd -l | from json | find reol | get id | first |astal-notifd -g $in
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json | get hints
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | get hints
+killall wl-clip-persist
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json | get hints
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json | get hints | get image-path
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json | get hints | get image-path | ffplay $in
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json | get hints | get image-path
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json | get hints.image-path
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json | get hints.image-path | from json
+astal-notifd -l | from json | find reol | get id | first | astal-notifd -g $in | from json | get hints.image-path
+ls
+ls | to json
+ls | to yaml
+ls | to kdl
+git clone https://github.com/amtoine/nu_plugin_kdl.git
+cd nu_plugin_kdl/
+ls
+./cargo-setup.nu /bin/nu
+git clone https://github.com/nushell/nushell.git
+./cargo-setup.nu /home/knee/nushell/
+cargo build --release
+ls
+rm -rf nu_plugin_kdl/
+rm -rf nushell/
+nohup wl-clip-persist &
+killall wl-clip-persist
+killall wl-clip-persist -c regular
+nohup wl-clip-persist -c regular
+bat nohup.out
+pgrep wl-clip-persist
+nohup wl-clip-persist -c regular
+pgrep wl-clip-persist
+nohup wl-clip-persist -c regular
+pgrep wl-clip-persist
+wl-clip-persist -c regular &
+wl-clip-persist -c regular
+wl-clip-persist -c regular;
+run wl-clip-persist -c regular
+start wl-clip-persist -c regular
+start "wl-clip-persist -c regular"
+help start
+table
+table --help
+setsid --help
+shutdown
+yay smarttools
+yay smartools
+yay smartmontools
+smartctl --help
+smartctl --all
+smartctl --scan
+smartctl --all /dev/sda
+sudo smartctl --all /dev/sda
+sudo smartctl -H /dev/sda
+sudo smartctl -a /dev/sda
+sudo smartctl -l selftest /dev/sda
+job spawn { floorp }
+job spawn { waybar }
+job --help
+job list
+job kill 1
+job spawn { waybar }
+job list
+pgrep waybar
+pkill 35886
+pgrep waybar
+pkill 35886
+pgrep waybar
+pkill 35886
+pgrep waybar
+pgrep waybar | lines | nth 1 | kill
+pgrep waybar | lines | get 1
+pgrep waybar | lines
+pgrep waybar | lines | first
+pgrep waybar | lines | second
+pgrep waybar | lines | get 2
+pgrep waybar | lines | get 1
+pgrep waybar | lines | get 1 | kill
+pgrep waybar | lines | get 1 | kill $in
+pgrep waybar
+pgrep waybar | lines | get 1 | into int | kill $in
+pgrep waybar
+sudo smartctl -l selftest /dev/sda
+shutdown
+ls
+ls | reject 2
+ls
+ls | reject 4
+ls | drop 4
+typioca 
+t
+typioca 
+cd vendor/autoload
+cat ~/.config/environment.d/*.conf
+cd ~/.config/environment.d/
+ls
+cdhx .config/nushell/config.nu
+echo $env.KINDL_THEME
+config env
+config
+config nu
+neovide
+echo $env.KINDL_THEME
+flatpak uninstall boxes
+yay virtual machine
+libvirt
+libvirtdc
+libvirtd
+fontforge
+$env.GDK_BACKEND = x11 fontforge
+$env.GDK_BACKEND = "x11" fontforge
+$env.GDK_BACKEND = 'x11' |  fontforge
+$env.GDK_BACKEND = 'x11' | fontforge
+$env.GDK_BACKEND = 'x11'; fontforge
+cdhx .config/nushell/config.nu
+cdhx .config/yolk/yolk.rhai
+ls
+yay typst
+typst
+cd ..
+cd kitty
+;s
+ls
+zellij
+zellij --help
+zellij list-sessions
+cd ..
+ls
+cd waybar/
+ls
+cd ..
+ls
+ls waybar
+ls waybar/
+ls niri/scripts/
+cd niri/scripts/
+./cc-audio
+yolk --help
+yolk eval
+yolk eval --help
+yolk --help
+zellij attach hopeful-apricot
+ls Pictures/takina-lycoris-recoil-355616586.gif
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | get first
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | echo $in
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | printf $in
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | print $in
+cwal --help
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | cwal --img $in
+ls Pictures/takina-lycoris-recoil-355616586.gif | get
+ls Pictures/takina-lycoris-recoil-355616586.gif | get id
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | get first
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | get name
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | find takina
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | drop
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | drop 1
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | drop 2
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | drop 3
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | reject
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | reject 1
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name | reject 0
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name.0
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name.0 | cwal --img $in
+ls
+ls
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name.0 | cwal --img $in
+ls
+echo $env.TERM
+cdhx .config/niri/config.kdl
+cd ..
+cd nushell/
+echo $env.TERM
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name.0 | cwal --img $in
+hx config.nu
+cwal --list-themes
+cd .config/
+ls
+ls Pictures/takina-lycoris-recoil-355616586.gif | get name.0 | cwal --img $in
+ls ../Pictures/takina-lycoris-recoil-355616586.gif | get name.0 | cwal --img $in
+cd ,,
+cd ..
+cd /usr/local/share/cwal/templates/
+ls
+cwal --theme
+yay -R cwal
+yay -S cwal
+cwal --theme
+cwal --theme --help
+cwal --theme catpuccin
+cwal --list-themes
+cwal --theme catpuccin
+cwal --theme gruvbox
+yay pywalfox
+ln -s ~/.cache/wal ~/.cache/cwal
+ln -s ~/.cache/cwal ~/.cache/wal
+cwal --theme flexoki
+fish
+cwal --theme tokyonight-night
+swww --help
+swww restore
+swww img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg
+cwal --img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg
+cwal --random /home/knee/Pictures/
+swww img /home/knee/.cache/cwal//schemes/snowbreak-falling-wallpaper.jpg_dark_darken_s0.00_c1.00_a1.00_cwal.cwal
+swww img /home/knee/Pictures/snowbreak-falling-wallpaper.jpg
+seq 1 5 | each {|i|<\n>    let filename = $"modular_($i).kdl"<\n>    $"random text ($i)" | save --raw $filename<\n>}
+ls
+cat modular_1.kdl
+watch ~/.config/niri/modular {<\n>  cat ~/.config/niri/modular/* | save --raw ~/.config/niri/config.kdl<\n>}
+watch ~/.config/niri/modular {<\n>  cat ~/.config/niri/modular/* | save --raw --force ~/.config/niri/config.kdl<\n>}
+hx .config/niri/scripts/concatenate.nu
+job spawn { .config/niri/scripts/concatenate.nu }
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+hx .config/niri/scripts/concatenate.nu
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+chmod +x /home/knee/.config/niri/scripts/concatenate.nu
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+cd .config/niri/modular/
+ls
+mv modular_3.kdl misc.kdl
+hx misc.kdl
+hx input.kdl
+mv input.kdl io.kdl
+hx i
+ls
+hx io.kdl
+mv modular_4.kdl startup.kdl
+hx startup.kdl
+ls
+hx misc.kdl
+ls
+bat ./*
+ls
+mv modular_5.kdl animations.kdl
+hx animations.kdl
+type
+describe touch
+describe --help
+ls
+touch rules.kdl
+hx rules.kdl
+;s
+ls
+hx binds.kdl
+ls
+hx env.kdl
+hx misc.kdl
+bat ./*
+xeyes
+yay -S xeyes
+yay -S xeyes-xorg
+yay -S xorg-xeyes
+;s
+ls
+cd .config/niri/modular/
+ls
+hx startup.kdl
+cd .config/niri/modular/
+ls
+bar binds
+bar binds.kdl
+bat binds.kdl
+yay kdlctl
+yay kdlql
+ln -s ~/.config/niri/modular/layout.kdl ~/.cache/cwal/layout.kdl
+ln -s ~/.cache/cwal/niri-layout.kdl ~/.config/niri/modular/layout.kdl
+cwal --random /home/knee/Pictures/
+swww img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg
+cwal --random /home/knee/Pictures/
+swww img /home/knee/Pictures/snowbreak-falling-wallpaper.jpg
+cwal --random /home/knee/Pictures/
+sww img /home/knee/Pictures/wallpapersden.com_lycoris-recoil-4k-2022_4096x2160.jpg
+swww img /home/knee/Pictures/wallpapersden.com_lycoris-recoil-4k-2022_4096x2160.jpg
+cwal --random /home/knee/Pictures/
+sww img /home/knee/Pictures/takina-sitting.jpg
+swww img /home/knee/Pictures/takina-sitting.jpg
+cwal --random /home/knee/Pictures/
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+cwal --random /home/knee/Pictures/
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+/home/knee/.config/niri/scripts
+/home/knee/.config/niri/scripts/concatenate.nu
+cdhx .config/niri/scripts/concatenate.nu
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+cwal --random /home/knee/Pictures/
+/home/knee/.config/niri/scripts/concatenate.nu
+cdhx .config/niri/scripts/concatenate.nu
+job spawn {<\n>  watch ~/.cache/cwal/niri-layout.kdl {<\n>    open ~/.config/niri/modular/* | str join "\n" | save --raw --force ~/.config/niri/config.kdl<\n>  }<\n>}
+cwal --random /home/knee/Pictures/
+cdhx .config/niri/scripts/concatenate.nu
+cwal --random /home/knee/Pictures/
+open /home/knee/.cache/cwal/cwal
+cdhx .config/nushell/config.nu
+cwwwal [--random]
+cwwwal [--random, ~/Pictures/]
+cwal --random /home/knee/Pictures/
+cwal --img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg
+nu config
+config open
+config
+let path = open /home/knee/.cache/cwal/cwal
+config nu
+cwwwal [--random, ~/Pictures/]
+let path = open /home/knee/.cache/cwal/cwal
+swww img $path
+config nu
+cwwwal [--random, ~/Pictures/]
+let path = open /home/knee/.cache/cwal/cwal | str trim
+swww img $path
+cwwwal [--random, ~/Pictures/]
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+cwwwal [--random, ~/Pictures/]
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+cwwwal [--random, ~/Pictures/]
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+cdhx .config/niri/scripts/concatenate.nu
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+cwwwal [--random, ~/Pictures/]
+cdhx .config/niri/scripts/concatenate.nu
+job list
+help commands | where category == filters
+cwwwal [--random, ~/Pictures/]
+./concatenate.nu
+job spawn { ~/.config/niri/scripts/concatenate.nu }
+cwwwal [--random, ~/Pictures/]
+floorp --help
+floorp --kiosk
+cdhx .config/nushell/config.nu
+cwwwal [--random, ~/Pictures/]
+killall Discord
+killall nxapi-app
+nu -c nso
+cdhx .config/nushell/env.nu
+nu -c nso
+rm .config/nushell/env.nu
+nu --help
+nu --help | find config
+nu --config ~/.config/nushell/config.nu -c nso
+echo $env.PATH
+cargo init
+ls
+cargo run
+cd dev/sldR/
+cargo run
+cd dev/sldR/
+cargo run
+cargo build
+yay nim
+nim --help
+yay nim,
+yay nim
+yay nimchoose
+yay nimproject
+nimble init
+cd dev/sldR/
+ls
+ls --help
+ls -a
+rm -rm ./
+rm -rf ./
+rm -rf .
+cd ..
+ls
+rm -rf sldR/
+ls
+mkdir sldR
+cd sldR
+ls
+nimble init
+ls -a
+nimble --help
+nimble run
+ls -a
+nimble run
+rm -rf src/
+ls
+rm sldR
+rm sldR.nimble
+ls
+ls -a
+yay elixir
+elixirc 
+elixir
+mix
+mix new sldR
+mix new sldr
+cd ..
+ls
+rm -rf sldR/
+ls
+mix new sldr
+cd sldr
+ls
+cd ..
+ls
+rm -rf sldR/
+cd sldr
+ls
+clear
+ls
+cd ..
+rm -rf sldR/
+rm -rf sldr/
+cd dev/
+mix new sldR --app sldr
+ls
+cd sldR
+ls
+clewar
+clear
+ls
+iex -s mix
+cd sldR
+cd dev/sldR/
+ls
+mix run
+mix --help
+elixir --help
+elixir run
+elixir sldr
+mix run
+cd ..
+ls
+rm -rf sldR/
+ls
+nimble init
+nimble new
+n
+nimble --help
+nimble init sldR
+cd sldR
+ls
+cd src
+ls
+cd ..
+ls src/
+cd dev/sldR/
+l;s
+nimble run
+nimble run --verbose
+nimble run
+nimble run --verbose
+nimble run
+ls
+nimble run
+typioca 
+config nu
+$env.config
+shutdown
+yay tcsh
+yay nyxt
+ls
+ls -a
+touch .tcshrc
+hx .tcshrc
+ls
+xcsh
+ls
+cdhx .config/nushell/config.nu
+cc-stream
+typ
+typioca 
+ls
+logout
+tcsh -
+typioca 
+echo $env.HISTFILE
+echo $env.histfile
+ls
+cdhx .config/starship.toml
+ls
+cdhx .config/starship.toml
+yay fusermount
+yay fuse
+yay fuse4
+ls
+colors
+ansi
+for i in {0..255}; do printf "\x1b[38;5;${i}m%3d " $i; ((i%16==15)) && echo; done; printf "\x1b[0m\n"
+each [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15] { |i| $"($it) | ansi background $it | ansi reset" }
+echo [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15] | each { $it | ansi background $it | ansi reset }<\n>
+echo [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15] | each { ansi background $it "$it" | ansi reset }<\n>
+echo [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15] | each { $"$(ansi background $it) $it $(ansi reset)" }<\n>
+echo [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15] | each { <\n>  let bg = (ansi background $it) <\n>  let reset = (ansi reset) <\n>  $"($bg) $it ($reset)" <\n>}<\n>
+echo [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15] | each { <\n>  let bg = (ansi $in) <\n>  let reset = (ansi reset) <\n>  $"($bg) $it ($reset)" <\n>}<\n>
+cwwwal [--random, ~/Pictures/]
+ls/
+ls
+bat .cache/cwal/colors-kitty.conf
+ls
+starship init elvish
+ls
+cwwwal [--random, ~/Pictures/]
+niri action spawn "cwwwal" "[--random, ~/Pictures/]"
+niri action spawn -- "cwwwal" "[--random, ~/Pictures/]"
+niri msg action spawn "cwwwal" "[--random, ~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random, ~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random," "~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random,~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random," "~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random," "~/Pictures/]" --verbose
+niri msg action spawn --verbose -- "cwwwal" "[--random," "~/Pictures/]"
+niri msg --help
+niri msg action spawn --verbose -- "cwwwal" "[--random," "~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random," "~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random, ~/Pictures/]"
+niri msg action spawn -- "cwwwal"
+niri msg action spawn -- "cwwwal" "[--random, ~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random," "~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random,~/Pictures/]"
+cwwwal [--random,~/Pictures/]
+niri msg action spawn -- "cwwwal" "[--random,~/Pictures/]"
+cwwwal [--random,~/Pictures/]
+niri msg action spawn -- "cwwwal" "[--random,~/Pictures/]"
+cwwwal [--random,~/Pictures/]
+chmod +x /home/knee/.scripts/cwwwal
+niri msg action spawn -- "cwwwal" "[--random, ~/Pictures/]"
+niri msg action spawn -- "cwwwal" "[--random,~/Pictures/]"
+penis
+logout
+penis
+niri msg action spawn -- "penis"
+penis
+niri msg action spawn -- "penis"
+niri msg action spawn -- "cwwwal" "[--random,~/Pictures/]"
+niri msg action spawn -- "nu" "--config" "~/.config/nushell/config.nu" "-c" "cwwwal" "[--random,~/Pictures/]"
+niri msg action spawn -- "nu" "--config" "~/.config/nushell/config.nu" "-c" "penis"
+niri msg action spawn -- "nu" "--config" "~/.config/nushell/config.nu" "-c" "cwwwal" "[--random,~/Pictures/]"
+nu --config ~/.config/nushell/config.nu -c cwwwal [--random, ~/Pictures/]
+niri msg action spawn -- "nu" "--config" "~/.config/nushell/config.nu" "-c" "cwwwal" "...[--random,~/Pictures/]"
+nu --config ~/.config/nushell/config.nu -c cwwwal ...[--random, ~/Pictures/]
+niri msg action spawn -- "nu" "--config" "~/.config/nushell/config.nu" "-c" "cwwwal" "...[--random,~/Pictures/]"
+nu --config ~/.config/nushell/config.nu -c cwwwal [--random, ~/Pictures/]
+cwwwal [--random,~/Pictures/]
+cwwwal [--random, ~/Pictures/]
+cd .scripts/
+ls
+cwwwal [--random, ~/Pictures/]
+cwwwal ["--random", "~/Pictures/"]
+cwwwal ...["--random", "~/Pictures/"]
+cwwwal ...[--random, ~/Pictures/]
+cwwwal ...["--random", "~/Pictures/"]
+cwwwal ["--random", "~/Pictures/"]
+cwwwal ...["--random", "~/Pictures/"]
+cwwwal ["--random", "~/Pictures/"]
+cwwwal ...["--random", "~/Pictures/"]
+cwwwal ["--random", "~/Pictures/"]
+cwwwal ("--random ~/Pictures/" )
+main ["--random", "~/Pictures/"]
+cwwwal ["--random", "~/Pictures/"]
+cwwwal --random ~/Pictures/
+nu --config ~/.config/nushell/config.nu -c cwwwal [--random, ~/Pictures/]
+niri msg action spawn -- "cwwwal" "[--random,~/Pictures/]"
+niri msg action spawn -- "cwwwal" "--random" "~/Pictures/"
+cdhx .config/niri/modular/startup.kdl
+l;s
+ls
+fontbase
+fontforge
+fastfetch
+fastfetch -c /
+fastfetch
+yay amethyst
+cdhx .config/yolk/yolk.rhai
+typioca 
+yay lsd
+lsd
+lsd | table
+lsd | tree
+tree
+help treee
+ls
+job spawn { waybar }
+job list
+job kill 1
+systemctl --user stop waybar
+job spawn { waybar }
+killall waybar
+ls
+job spawn { waybar }
+ame
+yay -Syu
+ame
+pacman -Q | grep -- -debug
+sudo hx /etc/makepkg.conf
+ame --help
+ame cheese
+ame search cheese
+pacman --help
+typioca 
+killall waybar
+systemctl --user start waybar
+hx .config/waybar/config.jsonc
+systemctl --user restart waybar
+timeshift
+ame timeshift
+ame search timeshift
+ame install timeshift
+sudo timeshift
+timeshift-gui
+timeshift-gtk 
+sudo timeshift-gtk
+echo $env.display
+pgrep xwayland-satellite
+pgrep -f xwayland-satellite
+xwayland-satellite --help
+shutdown
+typioca 
+ls
+hx .config/waybar/config.jsonc
+hx .config/starship.toml
+ls
+cat nohup.out
+bat nohup.out
+ls
+nu config
+xpip
+pywalfox --help
+cwwwal --random ~/Pictures/
+ls
+pywalfox update
+cwal --help
+hx .scripts/cwwwal
+cwal --img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg --script cwwwal
+cwal --img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg --script ~/.scripts/cwwwal
+cwwwal
+hx .scripts/cwwwal
+cwal --img /home/knee/Pictures/high_quality_4k_lycoris_recoil_wallpaper_by_sdugoten_dg6u9ep.jpg --script ~/.scripts/cwwwal
+cwal --img /home/knee/Pictures/ --script ~/.scripts/cwwwal
+cwal --random ~/Pictures/ --script ~/.scripts/cwwwal
+pywalfox --help
+pywalfox auto --help
+hx .scripts/cwwwal
+cwal --random ~/Pictures/ --script ~/.scripts/cwwwal
+pywalfox start
+pywalfox start --help
+pywalfox start
+cwal --random ~/Pictures/ --script ~/.scripts/cwwwal
+hx .xonshrc
+ls
+xonsh
+yay muttwizard
+yay tui mail
+xonsh
+ls
+xonsh
+ls
+logout
+ls
+nu config
+tmux
+ls
+ls .scripts/
+typioca 
+ls
+job --helpo
+job --help
+job recv
+job spawn --help
+job spawn {waybar}
+job list
+pgrep waybar
+kill 41344
+shutdown
+sherlock
+ame search sherlock
+ame install sherlock-launcher-git
+sherlock
+yay keycastr
+touch /home/knee/projects/niri/tags.yaml
+cdhx /home/knee/projects/niri/tags.yaml
+ls
+typioca 
+kak
+hx -t default
+hx --help
+cwal --random ~/Pictures/ --script ~/.scripts/cwwwal
+hx
+helix
+hx
+ls
+shutdown
+ls
+yolk sync
+ls
+yolk sync
+cd .config/
+ls
+ls | find starship
+yolk sync
+ls
+cwal --random ~/Pictures/ --script ~/.scripts/cwwwal
+yay twin
+yolk --help
+yolk status
+yolk sync
+yolk --help
+yolk list
+yolk git
+yolk git help -a
+yay lazygit
+lg
+lazygit
+cd .config/yolk
+ls
+lazygit
+ls -a
+yolk git commit
+yolk git add remote
+yolk git add remote origin
+yolk git remote add origin https://github.com/HumpityDumpityDumber/dotfiles.git
+yolk sync
+yolk --help
+yolk git add all

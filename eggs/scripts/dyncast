@@ -1,0 +1,23 @@
+#!/bin/bash
+
+last_workspaces_json=""
+
+niri msg --json event-stream | while read -r line; do
+  if [[ "$line" == *"WorkspacesChanged"* ]]; then
+    last_workspaces_json="$line"
+    continue
+  fi
+
+  if [[ "$line" == *"WorkspaceActivated"* ]]; then
+    active_id=$(echo "$line" | jq -r '.WorkspaceActivated.id')
+
+    output=$(echo "$last_workspaces_json" | jq -r --arg id "$active_id" '
+      .WorkspacesChanged.workspaces[] | select(.id == ($id|tonumber)) | .output
+    ')
+
+    if [[ -n "$output" ]]; then
+      echo "Switching dynamic cast target to: $output"
+      niri msg action set-dynamic-cast-monitor "$output"
+    fi
+  fi
+done
