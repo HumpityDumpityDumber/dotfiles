@@ -1,4 +1,4 @@
-# Disable the Nushell banner
+# nushell configs
 $env.config.show_banner = false
 $env.config.buffer_editor = "helix"
 
@@ -23,7 +23,7 @@ $env.config.completions.external = { enable: true, completer: $fish_completer };
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
-# aliases and custom commands
+# aliases
 alias hx = helix
 
 alias shutdown = shutdown now
@@ -32,6 +32,11 @@ alias logout = niri msg action quit --skip-confirmation
 
 alias docker = podman
 
+alias zj = zellij
+
+alias clr = clear
+
+# custom commands
 def --env cdhx [path] {
     cd ($path | path dirname)
     hx ($path | path basename)
@@ -42,3 +47,4 @@ alias nso = exec "/home/knee/Desktop/Nintendo Switch Online-1.6.1.AppImage"
 # env
 $env.TERM = 'linux'
 $env.path ++= ["~/.local/bin", "~/.scripts"]
+$env.EDITOR = 'helix'

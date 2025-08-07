@@ -36,8 +36,8 @@ binds {
     Mod+T repeat=false hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+Slash repeat=false hotkey-overlay-title="Run an App: fuzzel" { spawn "fuzzel"; }
     Mod+F repeat=false hotkey-overlay-title="Open Browser: floorp" { spawn "floorp"; }
-    Mod+E repeat=false hotkey-overlay-title="File Manager: nautilus" { spawn "nautilus" "--new-window"; }
-    Mod+C repeat=false hotkey-overlay-title="Run an App: Equibop" { spawn "flatpak" "run" "io.github.equicord.equibop"; }
+    Mod+E repeat=false hotkey-overlay-title="File Manager: nautilus" { spawn "kitty" "-e" "yazi"; }
+    Mod+C repeat=false hotkey-overlay-title="Run an App: Equibop" { spawn "equibop"; }
 
     Mod+S repeat=false hotkey-overlay-title="Run Slurp OCR Script" { spawn "screen-tools" "ocr"; }
     Ctrl+Shift+Escape repeat=false hotkey-overlay-title="Show System Tasks" { spawn "missioncenter"; }

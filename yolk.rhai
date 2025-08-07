@@ -1,3 +1,16 @@
+import "matugen" as matugen;
+
+const themes = #{
+    gruvbox: #{
+        background: "#282828",
+        foreground: "#ebdbb2",
+    },
+
+    matugen: matugen::matugen
+};
+
+export const colors = if io::command_available("matugen") { themes.matugen } else { themes.gruvbox };
+
 export let eggs = #{
 
     starship: #{
@@ -11,7 +24,9 @@ export let eggs = #{
     },
     
     nushell: #{
-        targets: "~/.config/nushell"
+        targets: #{
+            "config.nu": "~/.config/nushell/config.nu"   
+        }
     },
     
     kitty: #{
@@ -19,7 +34,8 @@ export let eggs = #{
     },
     
     waybar: #{
-        targets: "~/.config/waybar"
+        targets: "~/.config/waybar",
+        templates: ["colors.css"],
     },
     
     helix: #{
@@ -32,5 +48,20 @@ export let eggs = #{
 
     swayidle: #{
         targets: "~/.config/swayidle"
-    }    
-};
+    },
+
+    zellij: #{
+        targets: "~/.config/zellij"
+    },
+
+    fuzzel: #{
+        targets: "~/.config/fuzzel"
+    },
+
+    equibop: #{
+        targets: "~/.config/equibop",
+        strategy: "merge"
+    },
+
+    matugen: "~/.config/matugen"
+}

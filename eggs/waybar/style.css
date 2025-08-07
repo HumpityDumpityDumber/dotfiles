@@ -1,3 +1,5 @@
+@import "colors.css";
+
 * {
     font-family:
         "Google Sans Rounded", Inconsolata Nerd Font Propo, Roboto, Helvetica, Arial, sans-serif;
@@ -17,7 +19,7 @@
 window#waybar {
     min-height: 0px;
     min-width: 0px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: @background;
     border-radius: 0px;
 }
 
@@ -52,7 +54,7 @@ window#waybar > box {
     padding: 4px 12px;
     margin-right: 3px;
     margin-left: 3px;
-    color: #000000;
+    color: @foreground;
     background-color: transparent;
     transition: background-color 0.5s ease;
 }

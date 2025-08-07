@@ -1,0 +1,6 @@
+#!/usr/bin/env nu
+
+yolk sync
+pywalfox update
+pkill -SIGUSR2 waybar
+pkill -SIGUSR1 kitty

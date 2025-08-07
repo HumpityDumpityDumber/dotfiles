@@ -1,0 +1,11 @@
+[config]
+version_check = false
+
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "--transition-type", "center"]
+
+[templates.yolk]
+input_path = './yolk_colors.rhai'
+output_path = '~/.config/yolk/matugen.rhai'
+post_hook = "matugen-post-hook"
