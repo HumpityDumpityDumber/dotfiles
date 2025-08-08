@@ -1,3 +1,6 @@
 /.git
 /.deployed_cache
 /.yolk_git
+/eggs/waybar/colors.css
+/eggs/kitty/colors.conf
+matugen.rhai
