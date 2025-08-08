@@ -24,3 +24,7 @@ post_hook = 'pkill -SIGUSR1 kitty'
 input_path = './templates/colors.css'
 output_path = '~/.config/waybar/colors.css'
 post_hook = 'pkill -SIGUSR2 waybar'
+
+[templates.discord]
+input_path = './templates/discord.css'
+output_path = '~/.config/equibop/themes/mutagen.css'

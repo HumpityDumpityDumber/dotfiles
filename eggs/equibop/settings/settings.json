@@ -6,7 +6,9 @@
     "eagerPatches": false,
     "enabledThemes": [
         "EmojiReplace.theme.css",
-        "cwal-colors.css"
+        "cwal-colors.css",
+        "SettingsModal.theme.css",
+        "mutagen.css"
     ],
     "enabledThemeLinks": [],
     "enableReactDevtools": false,
@@ -545,7 +547,11 @@
             "enabled": false
         },
         "Anammox": {
-            "enabled": true
+            "enabled": true,
+            "dms": true,
+            "billing": true,
+            "gift": true,
+            "emojiList": true
         },
         "AtSomeone": {
             "enabled": false
@@ -1136,6 +1142,15 @@
         },
         "WebContextMenus": {
             "enabled": true
+        },
+        "ContentWarning": {
+            "enabled": false
+        },
+        "CopyStatusUrls": {
+            "enabled": false
+        },
+        "ShowResourceChannels": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -1148,7 +1163,7 @@
         "authenticated": false,
         "url": "https://cloud.equicord.org/",
         "settingsSync": false,
-        "settingsSyncVersion": 1754499549152
+        "settingsSyncVersion": 1754674265329
     },
     "ignoreResetWarning": false,
     "userCssVars": {}
