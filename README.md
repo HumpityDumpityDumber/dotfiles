@@ -1,3 +1,21 @@
-these are my new dotfiles; minimalist yet functional
+<div align="center">
 
-eventually going to be compatable with macos when i get a mac :P
+```
+██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗
+██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝
+██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗
+██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║
+██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║
+╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
+```
+
+*✨ minimalist • functional • aesthetic ✨*
+
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](#)
+[![OS](https://img.shields.io/badge/OS-Linux%20%7C%20macOS-blue.svg)](#)
+
+</div>
+
+<div align="center">
+
+</div>
