@@ -1,15 +1,6 @@
 import "matugen" as matugen;
 
-const themes = #{
-    gruvbox: #{
-        background: "#282828",
-        foreground: "#ebdbb2",
-    },
-
-    matugen: matugen::matugen
-};
-
-export const colors = if io::command_available("matugen") { themes.matugen } else { themes.gruvbox };
+const colors = matugen::matugen;
 
 export let eggs = #{
 
@@ -30,12 +21,11 @@ export let eggs = #{
     },
     
     kitty: #{
-        targets: "~/.config/kitty"
+        targets: "~/.config/kitty",
     },
     
     waybar: #{
         targets: "~/.config/waybar",
-        templates: ["colors.css"],
     },
     
     helix: #{
@@ -63,5 +53,5 @@ export let eggs = #{
         strategy: "merge"
     },
 
-    matugen: "~/.config/matugen"
+    matugen: "~/.config/matugen",
 }

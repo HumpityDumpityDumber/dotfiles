@@ -30,7 +30,7 @@ purple = "#d3869b"
 
 [palettes.default]
 bg = "black"
-fg = "bright-white"
+fg = "white"
 orange = "orange"
 yellow = "yellow"
 green = "green"
@@ -42,7 +42,7 @@ purple = "purple"
 
 [username]
 # Add a dark background color with padding spaces before and after
-style_user = "fg:blue bg:fg"
+style_user = "fg:bg bg:fg"
 style_root = "fg:red bold bg:fg"
 format = "[ $user]($style)"  # two spaces before and after for pill shape
 show_always = true

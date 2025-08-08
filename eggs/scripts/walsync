@@ -1,6 +1,0 @@
-#!/usr/bin/env nu
-let path = open /home/knee/.cache/cwal/cwal | str trim
-swww img $path
-rm ~/Pictures/floorp-bg/*
-cp $path ~/Pictures/floorp-bg/
-pywalfox update

@@ -6,6 +6,21 @@ command = "swww"
 arguments = ["img", "--transition-type", "center"]
 
 [templates.yolk]
-input_path = './yolk_colors.rhai'
+input_path = './templates/yolk_colors.rhai'
 output_path = '~/.config/yolk/matugen.rhai'
-post_hook = "matugen-post-hook"
+post_hook = "yolk sync"
+
+[templates.pywalfox]
+input_path = './templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
+[templates.kitty]
+input_path = './templates/kitty-colors.conf'
+output_path = '~/.config/kitty/colors.conf'
+post_hook = 'pkill -SIGUSR1 kitty'
+
+[templates.waybar]
+input_path = './templates/colors.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'

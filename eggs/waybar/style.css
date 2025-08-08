@@ -54,7 +54,7 @@ window#waybar > box {
     padding: 4px 12px;
     margin-right: 3px;
     margin-left: 3px;
-    color: @foreground;
+    color: @primary;
     background-color: transparent;
     transition: background-color 0.5s ease;
 }
