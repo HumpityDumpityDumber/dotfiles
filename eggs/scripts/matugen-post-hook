@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+yolk sync
+pkill -SIGUSR1 kitty
+pkill -SIGUSR2 waybar

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+rm ~/Pictures/floorp-bg/*
+cp {{image}} ~/Pictures/floorp-bg/

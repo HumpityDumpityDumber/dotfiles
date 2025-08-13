@@ -8,23 +8,31 @@ arguments = ["img", "--transition-type", "center"]
 [templates.yolk]
 input_path = './templates/yolk_colors.rhai'
 output_path = '~/.config/yolk/matugen.rhai'
-post_hook = "yolk sync"
+post_hook = "matugen-post-hook"
 
 [templates.pywalfox]
 input_path = './templates/pywalfox-colors.json'
 output_path = '~/.cache/wal/colors.json'
 post_hook = 'pywalfox update'
 
-[templates.kitty]
-input_path = './templates/kitty-colors.conf'
-output_path = '~/.config/kitty/colors.conf'
-post_hook = 'pkill -SIGUSR1 kitty'
-
-[templates.waybar]
-input_path = './templates/colors.css'
-output_path = '~/.config/waybar/colors.css'
-post_hook = 'pkill -SIGUSR2 waybar'
-
 [templates.discord]
 input_path = './templates/discord.css'
 output_path = '~/.config/equibop/themes/mutagen.css'
+
+[templates.floorp-bg]
+input_path = './templates/floorp-bg'
+output_path = '~/.cache/floorp-bg'
+post_hook = 'bash ~/.cache/floorp-bg'
+
+[templates.gtk3]
+input_path = './templates/gtk-colors.css'
+output_path = '~/.config/gtk-3.0/gtk.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-dark'
+
+[templates.gtk4]
+input_path = './templates/gtk-colors.css'
+output_path = '~/.config/gtk-4.0/gtk.css'
+
+[templates.fuzzel]
+input_path = './templates/fuzzel.ini'
+output_path = '~/.config/fuzzel/fuzzel.ini'

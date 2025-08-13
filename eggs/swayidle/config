@@ -1,5 +1,0 @@
-# Lock screen after 5 minutes (300 seconds)
-timeout 300 'gtklock'
-
-# After 10 minutes (600 seconds), power off monitors via Niri
-timeout 600 'niri msg action power-off-monitors'

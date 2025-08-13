@@ -37,7 +37,7 @@
             "enabled": false
         },
         "MessageEventsAPI": {
-            "enabled": false
+            "enabled": true
         },
         "MessagePopoverAPI": {
             "enabled": false
@@ -169,7 +169,17 @@
             "enabled": false
         },
         "FakeNitro": {
-            "enabled": false
+            "enabled": true,
+            "enableStickerBypass": true,
+            "enableStreamQualityBypass": true,
+            "enableEmojiBypass": true,
+            "transformEmojis": true,
+            "transformStickers": true,
+            "transformCompoundSentence": false,
+            "emojiSize": 48,
+            "hyperLinkText": "{{NAME}}",
+            "useEmojiHyperLinks": true,
+            "disableEmbedPermissionCheck": false
         },
         "FakeProfileThemes": {
             "enabled": false
@@ -256,7 +266,9 @@
             "enabled": false
         },
         "MessageClickActions": {
-            "enabled": false
+            "enabled": true,
+            "requireModifier": false,
+            "enableDoubleClickToReply": true
         },
         "MessageLatency": {
             "enabled": false
@@ -538,9 +550,6 @@
             "enabled": false
         },
         "AltKrispSwitch": {
-            "enabled": false
-        },
-        "AlwaysExpandProfile": {
             "enabled": false
         },
         "AmITyping": {
@@ -1151,6 +1160,15 @@
         },
         "ShowResourceChannels": {
             "enabled": false
+        },
+        "MusicControls": {
+            "enabled": false
+        },
+        "AlwaysExpandProfiles": {
+            "enabled": false
+        },
+        "TiktokTTS": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -1163,7 +1181,7 @@
         "authenticated": false,
         "url": "https://cloud.equicord.org/",
         "settingsSync": false,
-        "settingsSyncVersion": 1754674265329
+        "settingsSyncVersion": 1755106617134
     },
     "ignoreResetWarning": false,
     "userCssVars": {}

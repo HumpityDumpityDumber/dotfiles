@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ELGATO_SOURCE="alsa_input.usb-Elgato_Elgato_HD60_X_A00XB422206D8Q-02.analog-stereo"
 

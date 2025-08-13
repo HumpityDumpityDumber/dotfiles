@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 last_workspaces_json=""
 

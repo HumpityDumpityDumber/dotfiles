@@ -4,6 +4,8 @@ const colors = matugen::matugen;
 
 export let eggs = #{
 
+    matugen: "~/.config/matugen",
+    
     starship: #{
         targets: #{
         "starship.toml": "~/.config/starship.toml"    
@@ -12,6 +14,7 @@ export let eggs = #{
     
     niri: #{
         targets: "~/.config/niri",
+        templates: ["config.kdl"],
     },
     
     nushell: #{
@@ -22,10 +25,12 @@ export let eggs = #{
     
     kitty: #{
         targets: "~/.config/kitty",
+        templates: ["colors.conf"],
     },
     
     waybar: #{
         targets: "~/.config/waybar",
+        templates: ["colors.css"],
     },
     
     helix: #{
@@ -36,16 +41,8 @@ export let eggs = #{
         targets: "~/.scripts"   
     },
 
-    swayidle: #{
-        targets: "~/.config/swayidle"
-    },
-
     zellij: #{
         targets: "~/.config/zellij"
-    },
-
-    fuzzel: #{
-        targets: "~/.config/fuzzel"
     },
 
     equibop: #{
@@ -53,5 +50,10 @@ export let eggs = #{
         strategy: "merge"
     },
 
-    matugen: "~/.config/matugen",
-}
+    gtk: #{
+        targets: #{
+            ".themes/": "~/.themes/"
+        },
+    },
+
+    }

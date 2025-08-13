@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "bottom",
-  "exclusive": false,
+  "exclusive": true,
   "reload_style_on_change": true,
   "spacing": 0,
   "margin-top": 0,

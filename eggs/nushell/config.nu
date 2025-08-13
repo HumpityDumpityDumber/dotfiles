@@ -46,5 +46,5 @@ alias nso = exec "/home/knee/Desktop/Nintendo Switch Online-1.6.1.AppImage"
 
 # env
 $env.TERM = 'linux'
-$env.path ++= ["~/.local/bin", "~/.scripts"]
+$env.path ++= ["~/.local/bin", "~/.scripts", ~/.cargo/bin]
 $env.EDITOR = 'helix'

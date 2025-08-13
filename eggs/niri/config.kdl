@@ -1,5 +1,6 @@
-animations {
+// ---------- animations ----------
 
+animations {
   window-open {
     spring damping-ratio=0.7 stiffness=100 epsilon=0.0001
   }
@@ -29,6 +30,8 @@ animations {
   }
 }
 
+// ---------- keybinds ----------
+
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
@@ -53,7 +56,10 @@ binds {
 
     // open bitwarden picker
     Mod+Ctrl+B repeat=false hotkey-overlay-title="Open bitwarden poppup" { spawn "rofi-rbw"; }
-
+    
+    // clipboard manager
+    Mod+Ctrl+X repeat=false { spawn "fuzzel-cliphist"; }
+ 
     // Audio Controls
     XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
     XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
@@ -139,26 +145,6 @@ binds {
     Mod+Ctrl+Shift+WheelScrollDown { move-column-right; }
     Mod+Ctrl+Shift+WheelScrollUp   { move-column-left; }
 
-    // Workspace Numbers
-    Mod+1 { focus-workspace 1; }
-    Mod+2 { focus-workspace 2; }
-    Mod+3 { focus-workspace 3; }
-    Mod+4 { focus-workspace 4; }
-    Mod+5 { focus-workspace 5; }
-    Mod+6 { focus-workspace 6; }
-    Mod+7 { focus-workspace 7; }
-    Mod+8 { focus-workspace 8; }
-    Mod+9 { focus-workspace 9; }
-    Mod+Ctrl+1 { move-column-to-workspace 1; }
-    Mod+Ctrl+2 { move-column-to-workspace 2; }
-    Mod+Ctrl+3 { move-column-to-workspace 3; }
-    Mod+Ctrl+4 { move-column-to-workspace 4; }
-    Mod+Ctrl+5 { move-column-to-workspace 5; }
-    Mod+Ctrl+6 { move-column-to-workspace 6; }
-    Mod+Ctrl+7 { move-column-to-workspace 7; }
-    Mod+Ctrl+8 { move-column-to-workspace 8; }
-    Mod+Ctrl+9 { move-column-to-workspace 9; }
-
     // Column Management
     Mod+BracketLeft  { consume-or-expel-window-left; }
     Mod+BracketRight { consume-or-expel-window-right; }
@@ -205,9 +191,11 @@ binds {
     Mod+Shift+K { power-off-monitors; }
 }
 
+// ---------- env stuff ----------
+
 environment {
     DISPLAY ":0"
-    GDK_BACKEND "wayland,x11"
+    GDK_BACKEND "wayland"
     CLUTTER_BACKEND "wayland"
     MOZ_ENABLE_WAYLAND "1"
     ELECTRON_OZONE_PLATFORM_HINT "auto"
@@ -235,6 +223,8 @@ cursor {
     hide-after-inactive-ms 1000
 }
 
+// ---------- input ----------
+
 input {
     keyboard {
         xkb {
@@ -244,18 +234,9 @@ input {
         numlock
     }
 
-    touchpad {
-        tap
-        natural-scroll
-    }
-
     mouse {
         // natural-scroll
         // accel-speed 0.2
-    }
-
-    trackpoint {
-        // natural-scroll
     }
 
     tablet {
@@ -281,6 +262,21 @@ output "DP-1" {
     variable-refresh-rate on-demand=true
 }
 
+// ---------- layout ----------
+
+// idk why this isnt a layout setting
+window-rule {
+    geometry-corner-radius 15
+    clip-to-geometry true
+}
+
+window-rule {
+  match is-active=true
+  border {
+    off
+  }
+}
+
 layout {
     background-color "transparent"
 
@@ -301,14 +297,16 @@ layout {
     }
 
     focus-ring {
-        off
+      width 8
+      active-color "#ffb1c6" // {< replace_color(colors.primary) >}
+      inactive-color "transparent"
     }
 
     // make translucent white 
     border {
-        width 8
-        active-color "ffffff99"
-        inactive-color "ffffff00"
+      width 1
+      active-color "transparent"
+      inactive-color "#ffffff"
     }
 
     // nice little shadow
@@ -331,18 +329,13 @@ layout {
         position "left"
         gaps-between-tabs 8
         corner-radius 8
-        active-color "#ffffff50"
-        inactive-color "#ffffff30"
+        active-color "#ffffffaa"
+        inactive-color "#ffffff77"
     }
 
     // make translucent white
     insert-hint {
-        color "#ffffff30"
-    }
-
-    // make space for waybar
-    struts {
-        bottom 29
+        color "#ffffff77"
     }
 }
 
@@ -411,12 +404,9 @@ window-rule {
     match app-id=r#"^steam$"# title=r#"^notificationtoasts_\d+_desktop$"#
     default-floating-position x=0 y=0 relative-to="top-right"
     open-focused false
-}
-
-// round all windows
-window-rule {
-    geometry-corner-radius 15
-    clip-to-geometry true
+    border {
+        off
+    }
 }
 
 // fix system apps size
@@ -433,11 +423,9 @@ window-rule {
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "xrandr" "--output" "DP-1" "--primary"
 spawn-at-startup "dbus-update-activation-environment" "--systemd" "--all"
-spawn-at-startup "systemctl" "--user" "import-environment" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
-spawn-at-startup "/home/knee/.config/niri/scripts/cc-audio"
 spawn-at-startup "swww-daemon"
-spawn-at-startup "cwwwal" "--random" "~/Pictures/"
 spawn-at-startup "dyncast"
-spawn-at-startup "swayidle"
 spawn-at-startup "cc-audio"
+spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+spawn-at-startup "wl-clip-persist" "--clipboard" "regular"

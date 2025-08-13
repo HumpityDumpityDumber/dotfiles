@@ -42,14 +42,14 @@ purple = "purple"
 
 [username]
 # Add a dark background color with padding spaces before and after
-style_user = "fg:bg bg:fg"
+style_user = "fg:blue bold bg:fg"
 style_root = "fg:red bold bg:fg"
 format = "[ $user]($style)"  # two spaces before and after for pill shape
 show_always = true
 
 [hostname]
 ssh_only = false
-style = "fg:purple bold bg:fg"
+style = "fg:purple bg:fg"
 format = "[@$hostname ]($style)"  # spaces to pad the pill shape
 disabled = false
 
