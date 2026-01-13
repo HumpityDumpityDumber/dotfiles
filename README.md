@@ -9,10 +9,9 @@
 ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
 ```
 
-*✨ minimalist • functional • aesthetic ✨*
+my dotfiles that i have probably been forgetting to sync for months
 
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red.svg)](#)
-[![OS](https://img.shields.io/badge/OS-Linux%20%7C%20macOS-blue.svg)](#)
 
 remember to like run matugen like this for the first time so everything doesn't go boom
 ```
